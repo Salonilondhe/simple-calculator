@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header class="titl"><b></b>CALCULATOR</b></header>
+
+    
+
+    <div class="container">
+
+        <!-- <div class="screen" id="result"></div> -->
+        
+        <input type="text" id="result" class="screen"  >
+
+        <button type="text" class="number" id="clr"  onclick="clr()">clr</button>
+        
+        <button type="text" class="number" id="divide" value="/" onclick="divide()">/</button>
+        
+        <button type="text" class="number" id="multiply" value="*" onclick="multiply()">*</button>
+        
+        <button type="text" class="number" id="del"  onclick="del()">del</button>
+
+
+
+        <button type="text" class="number" id="one" value="1" onclick="one()">1</button>
+
+        <button type="text" class="number" id="two" value="2" onclick="two()">2</button>
+
+        <button type="text" class="number" id="three" value="3" onclick="three()">3</button>
+        
+        <button type="text" class="number" id="subs" value="-" onclick="subs()">-</button>
+
+
+        <button type="text" class="number" id="four" value="4" onclick="four()">4</button>
+        <button type="text" class="number" id="five" value="5" onclick="five()">5</button>
+        <button type="text" class="number" id="six" value="6" onclick="six()">6</button>
+        <button type="text" class="number" id="adds" value="+" onclick="adds()">+</button>
+
+
+        <button type="text" class="number" id="seven" value="7" onclick="seven()">7</button>
+        <button type="text" class="number" id="eight" value="8" onclick="eight()">8</button>
+        <button type="text" class="number" id="nine" value="9" onclick="nine()">9</button>
+        <button type="text" class="number" id="equal" value="=" onclick="equal()" style="height:110px">=</button>
+
+        <button type="text" class="number last" id="percent" value="**"  onclick="power()">X<sup>2</sup></button>
+        <button type="text" class="number last" id="zero" value="0" onclick="zero()">0</button>
+        <button type="text" class="number last" id="dot" value="." onclick="dot()">.</button>
+   
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
